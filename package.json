@@ -1,8 +1,7 @@
 {
-  "name": "position-sticky",
+  "name": "table-with-fixed-header-and-column",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "行列を固定したテーブル",
   "scripts": {
     "start": "webpack-dev-server"
   },
