@@ -1,0 +1,41 @@
+.fixed-table-wrapper {
+  width: 590px;
+  background-color: #ddffff;
+}
+.fixed-table-header-left {
+  float: left;
+}
+.fixed-table-header-right {
+  width: 400px;
+  float: left;
+  overflow: hidden;
+}
+.fixed-table-body-wrapper-left {
+  float: left;
+  height: 170px;
+  overflow: hidden;
+}
+.fixed-table-body-wrapper-right {
+  width: 400px;
+  height: 170px;
+  overflow: scroll;
+}
+.fixed-table {
+  border-collapse: collapse;
+}
+.fixed-table td {
+  border: 1px solid #888;
+  min-width: 90px;
+  max-width: 90px;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 30px;
+}
+.fixed-table td.dummyColumn {
+  width: 17px;
+  border: 0px;
+}
+.fixed-table td.dummyRow {
+  height: 18px;
+  border: 0px;
+}
